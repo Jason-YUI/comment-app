@@ -1,6 +1,7 @@
 import React from 'react';
 import CommentInput from './CommentInput';
 import CommentList from './CommentList';
+import PercentageApp from './PercentageApp';
 
 
 class CommentApp extends React.Component {
@@ -26,6 +27,7 @@ class CommentApp extends React.Component {
           <div className="wrapper">
              <CommentInput onSubmit={ this.handleSubmitComment.bind(this) }/>
              <CommentList comments={ this.state.comments }/>
+              <PercentageApp/>
           </div>
         );
     }
