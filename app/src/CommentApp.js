@@ -1,6 +1,7 @@
 import React from 'react';
 import CommentInput from './CommentInput';
 import CommentList from './CommentList';
+import PercentageApp from './PercentageApp';
 
 
 class CommentApp extends React.Component {
