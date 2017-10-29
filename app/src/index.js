@@ -5,7 +5,7 @@ import CommentApp from './CommentApp';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <CommentApp />,
-    document.getElementById('root')
+  <CommentApp/>,
+  document.getElementById('root')
 );
 registerServiceWorker();
